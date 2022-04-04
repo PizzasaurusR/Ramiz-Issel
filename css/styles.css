@@ -1,0 +1,174 @@
+/**************************TAG SELECTORS*********************/
+body {
+  background-color: #f9f7f7;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #112d4e;
+  margin: 50px auto 0 auto;
+  font-family: 'Send Flowers', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #112d4e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #77acf1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted #77ACF1;
+  color: #112d4e;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+/*************************CLASS SELECTORS********************/
+.top-container {
+  background-color: #3f72af;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #dbe2ef;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #77acf1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 150px;
+}
+
+.mid-cloud2 {
+  position: absolute;
+  right: 350px;
+  bottom: 250px;
+}
+.mid-cloud1 {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 115px;
+}
+
+.sun{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.flip-img {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  height: 150px;
+}
+
+.kendo-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.sub-heading {
+  font-size: 2.5rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.btn {
+  background: #51b3f5;
+  background-image: -webkit-linear-gradient(top, #51b3f5, #1569a1);
+  background-image: -moz-linear-gradient(top, #51b3f5, #1569a1);
+  background-image: -ms-linear-gradient(top, #51b3f5, #1569a1);
+  background-image: -o-linear-gradient(top, #51b3f5, #1569a1);
+  background-image: linear-gradient(to bottom, #51b3f5, #1569a1);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #F9F7F7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3F72AF;
+  background-image: -webkit-linear-gradient(top, #3F72AF, #51b3f5);
+  background-image: -moz-linear-gradient(top, #3F72AF, #51b3f5);
+  background-image: -ms-linear-gradient(top, #3F72AF, #51b3f5);
+  background-image: -o-linear-gradient(top, #3F72AF, #51b3f5);
+  background-image: linear-gradient(to bottom, #3F72AF, #51b3f5);
+  text-decoration: none;
+}
+
+
+.bio {
+  margin: 50px auto;
+  width: 30%;
+  color: #3F72AF;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #11468f;
+  margin: 20px;
+}
+
+.footer-paragraph {
+  color: #F9F7F7;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+
+.skills{
+}
+/**************************ID SELECTORS*********************/
